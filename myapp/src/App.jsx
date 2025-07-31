@@ -20,6 +20,7 @@ import CreateTodo from "./task1/CreateTodo";
 import TodoWrapper from "./task1/TodoWrapper";
 import UncontrolledForms from "./all_topics/11_uncontrolledForms/UncontrolledForms";
 import ControlledForms2 from "./all_topics/10_controlledForms/ControlledForms2";
+import LifeCycleParent from "./all_topics/12_lifeCycle/LifeCycleParent";
 const App = () => {
   return (
     <>
@@ -50,8 +51,9 @@ const App = () => {
 
       {/* <ControlledForms1/> */}
       {/* <TodoWrapper/> */}
-      <UncontrolledForms/>
+      {/* <UncontrolledForms/> */}
       {/* <ControlledForms2/> */}
+      <LifeCycleParent/>
     </>
   );
 };
